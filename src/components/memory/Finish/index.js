@@ -28,10 +28,11 @@ const Finish = ({  handleRestart, showModal, bestScore, moves }) => {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-        <Button onClick={handleRestart} color="primary">
+        <Link to ="/"><Button onClick={handleRestart} color="primary">
            Joueur suivant
-          </Button>
+          </Button></Link>
         <Link to ="/tictactoe"><Button>Jouer au jeu de titactoe</Button>
+       
 </Link>
         </DialogActions>
       </Dialog>

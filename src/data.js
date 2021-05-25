@@ -1,8 +1,8 @@
-import IMG1 from "./image/barca.png";
+/*import IMG1 from "./image/barca.png";
 import IMG2 from "./image/bayarn.jpg";
 import IMG3 from "./image/juventus.png";
 import IMG4 from "./image/liverpool.jpg";
-import IMG5 from "./image/psg.jpg";
+import IMG5 from "./image/psg.jpg";*/
 import IMG6 from "./image/real.jpg";
 import IMG7 from "./image/manchester.png";
 import IMG8 from "./image/manchester2.png";
@@ -13,7 +13,7 @@ import IMG12 from "./image/inter.png";
 
 
 const uniqueCardsArray = [
-  {
+ /* {
     type: "bird3",
     image: IMG1,
   },
@@ -32,7 +32,7 @@ const uniqueCardsArray = [
   {
     type: "bird8",
     image: IMG5,
-  },
+  },*/
   {
     type: "bird2",
     image: IMG6,

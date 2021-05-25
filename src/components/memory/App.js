@@ -5,6 +5,7 @@ import Header from "./Header";
 import { Col, Container, Row } from "react-bootstrap";
 import Card from "./Card";
 import Finish from "./Finish/index.js";
+import {withRouter} from 'react-router-dom';
 
 // FisherYates Modern Shuffle Algorithm
 function swap(array, i, j) {
@@ -21,8 +22,11 @@ function shuffleCards(array) {
   }
   return array;
 }
+//const Memory  = ({authorized})
 
 const Memory  = () => {
+
+
   const [cards, setCards] = useState(() =>
     shuffleCards(uniqueCardsArray.concat(uniqueCardsArray))
   );
@@ -108,9 +112,14 @@ const Memory  = () => {
     setShouldDisableAllCards(false);
     setCards(shuffleCards(uniqueCardsArray.concat(uniqueCardsArray)));
   };
+  /*if (!authorized){
+  return<Redirect to ="/" />
+}*/
 
   return (
     <div>
+
+    
       <Header
         moves={moves}
         bestScore={bestScore}
@@ -145,4 +154,4 @@ const Memory  = () => {
   );
 };
 
-export default Memory ;
+export default withRouter(Memory);

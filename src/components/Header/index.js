@@ -1,11 +1,12 @@
-import React,{Component} from 'react';
+/*import React,{Component} from 'react';
 import { Button } from 'semantic-ui-react';
 import './style.css';
 import{Link} from 'react-router-dom';
+import{useState}from "react";
 
-class Header extends Component{
+function Header(){
     
- render(){ 
+    const [isAuth,setIsAuth] = useState(false);
 
 
 
@@ -16,16 +17,17 @@ class Header extends Component{
 <Link to ="/">
     <Button primary>Register Gamer</Button>
 </Link>
-<Link to ="/memory"> <Button secondary>Memory Game</Button>
+<Link to ="/memory"> <Button secondary onClick={()=>{setIsAuth(false)}}>Memory Game</Button>
 </Link>
-<Link to ="/tictactoe"><Button secondary>TicTacToe Game</Button>
+<Link to ="/tictactoe"><Button secondary >TicTacToe Game</Button>
 </Link>
 
   </div>   
      
      )
  }
-}
+
 export default Header;
 
 
+*/

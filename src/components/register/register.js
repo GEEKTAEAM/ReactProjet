@@ -1,52 +1,30 @@
-import React,{Component}  from "react";
+/*import React,{Component}  from "react";
 import "./register.css";
-
-/*import Map from './NameForm';*/
-/*import Header from "../memory/Header/index";*/
+//import {useHistory}from "react-router-dom";
 
 
-class Register extends Component{
-  constructor(props) {
-    super(props);
-    this.state = {value: ''};
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+function Register() {
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    event.preventDefault();
-  }
-     
-
-  render() {
+ 
+    //let history  = useHistory();
     return (
       <div><h1>Register</h1>
     <div>
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Submit" />
+      
+       
+    <input type="text"  placeholder="gamer-name" name="name" />
+      
+     <button > Envoyer</button>
         
-      </form>
+     
       </div></div>
       
      
     );
   }
-}
 
 
-/*ReactDOM.render(/
-  <NameForm />,
-  document.getElementById('root')
-);*/
 
-export default Register;
+
+export default Register;*/
