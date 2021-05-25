@@ -2,8 +2,8 @@
 import IMG2 from "./image/bayarn.jpg";
 import IMG3 from "./image/juventus.png";
 import IMG4 from "./image/liverpool.jpg";
-import IMG5 from "./image/psg.jpg";*/
-import IMG6 from "./image/real.jpg";
+import IMG5 from "./image/psg.jpg";
+import IMG6 from "./image/real.jpg";*/
 import IMG7 from "./image/manchester.png";
 import IMG8 from "./image/manchester2.png";
 import IMG9 from "./image/asec.gif";
@@ -32,11 +32,11 @@ const uniqueCardsArray = [
   {
     type: "bird8",
     image: IMG5,
-  },*/
+  },
   {
     type: "bird2",
     image: IMG6,
-  },
+  },*/
   {
     type: "bird4",
     image: IMG7,

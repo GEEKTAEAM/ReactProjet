@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { Container } from "react-bootstrap";
 import { FaRedo } from "react-icons/fa";
+//import App from '../App';
 
 
 const Header = ({name,moves, bestScore, handleRestart }) => {
@@ -23,6 +24,7 @@ const Header = ({name,moves, bestScore, handleRestart }) => {
           <span className="bold">Name:</span>
             
             {name}
+           
           </div>
 
 

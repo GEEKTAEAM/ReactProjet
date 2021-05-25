@@ -1,3 +1,5 @@
+
+
 //import { render } from '@testing-library/react';
 //import React, {Component } from 'react';
 //import Header from './components/Header/index';
@@ -16,13 +18,7 @@ import{Link} from 'react-router-dom';
 
 
 
-/*var sectionStyle = {
-  width: "100%",
-  height: "1200px",
-  backgroundImage: "url(" + Background + ")",
-  
 
-};*/
 function App (){
   
  
@@ -37,7 +33,7 @@ function App (){
      
       <h1> FOOT Clubs </h1>
       
-      <Router>
+  <Router>
       <div className="Button">
 <Link to ="/">
     <Button primary>Register Gamer</Button>
@@ -51,13 +47,13 @@ function App (){
      <Route path="/" exact >
      <div><h1>Register</h1>
     
-      
+<div className="form">
        
     <input type="text"  placeholder="gamer-name" name="name" />
       
     <Link to ="/memory"> <Button secondary onClick={()=>{setIsAuth(true)}}>Envoyer</Button>
     </Link>
-        
+</div>
      
       </div>
 
@@ -68,10 +64,18 @@ function App (){
      <Route path="/tictactoe" exact component={Tictactoe} />
 
       </Router>
+      
      
     
     
      </div>
+
+
+
+
+
+
+
   );
 }
 
